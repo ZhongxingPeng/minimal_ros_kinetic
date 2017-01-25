@@ -1,0 +1,17 @@
+<package>
+  <!-- Package Metadata -->
+  <name>beginner_tutorials</name>
+  <maintainer email="you@example.com">sp</maintainer>
+  <description>
+    A ROS tutorial - beginner_tutorials.
+  </description>
+  <version>0.0.0</version>
+  <license>BSD</license>
+
+  <!-- Required by Catkin -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Package Dependencies -->
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+</package>
