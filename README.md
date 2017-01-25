@@ -1,4 +1,13 @@
-# The origin of this ROS
+# How to build
+
+```bash
+$ git clone https://github.com/ZhongxingPeng/minimal_ros_kinetic.git
+$ cd minimal_ros_kinetic
+$ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
+$ source ~/ros_catkin_ws/install_isolated/setup.bash
+```
+
+# The origin of this minimal version of ROS
 This minimal version of ROS is started from bare bones **ROS-Comm**.
 
 1. Fetch the core packages as follows
