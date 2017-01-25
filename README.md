@@ -1,10 +1,10 @@
 # How to build
 
 ```bash
-$ git clone https://github.com/ZhongxingPeng/minimal_ros_kinetic.git
-$ cd minimal_ros_kinetic
+$ git clone https://github.com/ZhongxingPeng/ros_minimal_kinetic.git
+$ cd ros_minimal_kinetic
 $ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
-$ source ~/ros_catkin_ws/install_isolated/setup.bash
+$ source install_isolated/setup.bash
 ```
 
 # The origin of this minimal version of ROS
@@ -27,5 +27,5 @@ This minimal version of ROS is started from bare bones **ROS-Comm**.
 
 	```bash
 	$ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
-	$ source ~/ros_catkin_ws/install_isolated/setup.bash
+	$ source install_isolated/setup.bash
 	```
