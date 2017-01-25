@@ -1,5 +1,5 @@
 # The origin of this ROS
-This minimal version of ROS is start from bare bones **ROS-Comm**.
+This minimal version of ROS is started from bare bones **ROS-Comm**.
 
 1. Fetch the core packages as follows
 
