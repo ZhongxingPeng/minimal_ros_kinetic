@@ -5,7 +5,7 @@ if(NOT WIN32)
   set_directory_properties(PROPERTIES COMPILE_OPTIONS "-Wall;-Wextra")
 endif()
 
-find_package(catkin REQUIRED COMPONENTS cpp_common rostime rosunit)
+find_package(catkin REQUIRED COMPONENTS cpp_common rostime)
 
 find_package(Boost COMPONENTS regex system thread)
 

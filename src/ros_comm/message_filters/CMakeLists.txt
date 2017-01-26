@@ -33,7 +33,7 @@ install(DIRECTORY include/${PROJECT_NAME}/
 if(CATKIN_ENABLE_TESTING)
   # Ugly workaround for check_test_ran macro issue
   #add_subdirectory(test)
-  find_package(catkin COMPONENTS rostest rosunit)
+  find_package(catkin COMPONENTS rostest)
 
   include_directories(${GTEST_INCLUDE_DIRS})
 
