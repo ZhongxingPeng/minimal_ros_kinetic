@@ -39,7 +39,6 @@
   <run_depend>rosout</run_depend>
   <run_depend>rosparam</run_depend>
   <run_depend>rosservice</run_depend>
-  <run_depend>rostest</run_depend>
   <run_depend>rostopic</run_depend>
   <run_depend>topic_tools</run_depend>
 

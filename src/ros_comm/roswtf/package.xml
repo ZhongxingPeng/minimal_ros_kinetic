@@ -12,8 +12,6 @@
 
   <buildtool_depend version_gte="0.5.68">catkin</buildtool_depend>
 
-  <build_depend>rostest</build_depend>
-
   <run_depend>python-paramiko</run_depend>
   <run_depend>python-rospkg</run_depend>
   <run_depend>rosbuild</run_depend>
@@ -22,8 +20,6 @@
   <run_depend>roslib</run_depend>
   <run_depend>rosnode</run_depend>
   <run_depend>rosservice</run_depend>
-
-  <test_depend>cmake_modules</test_depend>  <!-- since the other packages recursively depend on it roswtf needs to find it during its own tests -->
 
   <export>
     <rosdoc config="rosdoc.yaml"/>
